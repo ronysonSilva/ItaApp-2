@@ -53,11 +53,10 @@ export default function PlacesMenu() {
               >
                 <View
                   style={{ elevation: 20 }}
-                  className={`${
-                    selectedPlace === place
-                      ? colorButtonDefault
-                      : "bg-slate-500"
-                  } rounded-full h-[75px] w-[75px] items-center justify-center`}
+                  className={`${selectedPlace === place
+                    ? colorButtonDefault
+                    : "bg-slate-500"
+                    } rounded-full h-[75px] w-[75px] items-center justify-center`}
                 >
                   <Image
                     source={{ uri: place.icone }}
@@ -87,18 +86,16 @@ export default function PlacesMenu() {
               style={{ marginRight: 10 }}
             >
               <View
-                className={`p-1 mt-3 rounded-full h-8 justify-center ${
-                  selectedCategory === categoria
-                    ? "bg-slate-500"
-                    : "bg-slate-300"
-                }`}
+                className={`p-1 mt-3 rounded-full h-8 justify-center ${selectedCategory === categoria
+                  ? "bg-slate-500"
+                  : "bg-slate-300"
+                  }`}
               >
                 <Text
-                  className={`${
-                    selectedCategory === categoria
-                      ? "text-white"
-                      : "text-slate-600"
-                  } mx-3`}
+                  className={`${selectedCategory === categoria
+                    ? "text-white"
+                    : "text-slate-600"
+                    } mx-3`}
                 >
                   {categoria.nome}
                 </Text>
@@ -111,20 +108,40 @@ export default function PlacesMenu() {
         {/* Renderizar os posts */}
         {selectedCategory
           ? selectedCategory.posts.map((post, index) => (
-              <View key={index}>
-                <Text>{post.nome}</Text>
-                {/* Renderizar outros detalhes do post conforme necessário */}
+            <TouchableOpacity key={index} className="w-full rounded-lg bg-white mb-4">
+              {/* <Image
+              source={{ uri: imageURL }}
+              style={{ height: 300, width: '100%', resizeMode: 'cover' }}
+              className="rounded-t-lg"
+            /> */}
+              <View className="">
+                <Text className="text-lg font-bold text-slate-600 mx-3 my-3 mb-1 leading-6">{post.nome}</Text>
               </View>
-            ))
+              <View className="mx-3 mt-2 mb-3 pt-2 border-t-2 border-slate-200 flex-row">
+                <Text className=" py-1 font-semibold text-slate-600 text-base mr-3">Curtir   |</Text>
+                <Text className=" py-1 font-semibold text-slate-500 text-base">{post.likes}</Text>
+              </View>
+            </TouchableOpacity>
+          ))
           : selectedPlace &&
-            selectedPlace.categoria.map((categoria, index) =>
-              categoria.posts.map((post, index) => (
-                <View key={index}>
-                  <Text>{post.nome}</Text>
-                  {/* Renderizar outros detalhes do post conforme necessário */}
+          selectedPlace.categoria.map((categoria, index) =>
+            categoria.posts.map((post, index) => (
+              <TouchableOpacity key={index} className="w-full rounded-lg bg-white mb-4">
+                {/* <Image
+                  source={{ uri: imageURL }}
+                  style={{ height: 300, width: '100%', resizeMode: 'cover' }}
+                  className="rounded-t-lg"
+                /> */}
+                <View className="">
+                  <Text className="text-lg font-bold text-slate-600 mx-3 my-3 mb-1 leading-6">{post.nome}</Text>
                 </View>
-              ))
-            )}
+                <View className="mx-3 mt-2 mb-3 pt-2 border-t-2 border-slate-200 flex-row">
+                  <Text className=" py-1 font-semibold text-slate-600 text-base mr-3">Curtir   |</Text>
+                  <Text className=" py-1 font-semibold text-slate-500 text-base">{post.likes}</Text>
+                </View>
+              </TouchableOpacity>
+            ))
+          )}
       </ScrollView>
     </View>
   );
