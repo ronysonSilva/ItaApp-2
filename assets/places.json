@@ -1,0 +1,1176 @@
+{
+  "lugares": [
+    {
+      "nome": "Todos",
+      "icone": "https://github.com/vsiago/itaApp/blob/master/assets/icons/icon-all.png?raw=true",
+      "categoria": [
+        {
+          "nome": "Acontecendo Agora",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Hospital São Francisco Xavier",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "263",
+              "comentarios": [
+                {
+                  "usuario": "Ana",
+                  "data": "2024-02-25 10:00:00",
+                  "texto": "Ótimo atendimento!"
+                },
+                {
+                  "usuario": "Carlos",
+                  "data": "2024-02-25 11:30:00",
+                  "texto": "Precisa de mais médicos."
+                },
+                {
+                  "usuario": "Maria",
+                  "data": "2024-02-25 13:45:00",
+                  "texto": "Muito limpo e organizado."
+                }
+              ]
+            },
+            {
+              "nome": "Teatro Municipal",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "98",
+              "comentarios": [
+                {
+                  "usuario": "João",
+                  "data": "2024-02-25 09:15:00",
+                  "texto": "Demora no atendimento."
+                },
+                {
+                  "usuario": "Fernanda",
+                  "data": "2024-02-25 12:20:00",
+                  "texto": "Ótimos profissionais."
+                },
+                {
+                  "usuario": "Pedro",
+                  "data": "2024-02-25 14:00:00",
+                  "texto": "Poderia ter mais estrutura."
+                }
+              ]
+            },
+            {
+              "nome": "Evento da Mulher",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "77",
+              "comentarios": [
+                {
+                  "usuario": "Mariana",
+                  "data": "2024-02-25 11:00:00",
+                  "texto": "Espera muito longa."
+                },
+                {
+                  "usuario": "Roberto",
+                  "data": "2024-02-25 13:10:00",
+                  "texto": "Bom atendimento emergencial."
+                },
+                {
+                  "usuario": "Laura",
+                  "data": "2024-02-25 15:30:00",
+                  "texto": "Falta de medicamentos."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Evento da Mulher",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Escola Municipal Primavera",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "120",
+              "comentarios": [
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 09:30:00",
+                  "texto": "Excelente escola!"
+                },
+                {
+                  "usuario": "Juliana",
+                  "data": "2024-02-25 10:45:00",
+                  "texto": "Professores dedicados."
+                },
+                {
+                  "usuario": "Camila",
+                  "data": "2024-02-25 14:20:00",
+                  "texto": "Boas instalações."
+                }
+              ]
+            },
+            {
+              "nome": "Escola Municipal Arco-Íris",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "85",
+              "comentarios": [
+                {
+                  "usuario": "Rafael",
+                  "data": "2024-02-25 11:00:00",
+                  "texto": "Falta de material escolar."
+                },
+                {
+                  "usuario": "Patrícia",
+                  "data": "2024-02-25 13:15:00",
+                  "texto": "Ambiente acolhedor."
+                },
+                {
+                  "usuario": "Anderson",
+                  "data": "2024-02-25 15:40:00",
+                  "texto": "Boa merenda escolar."
+                }
+              ]
+            },
+            {
+              "nome": "Escola Municipal Sol Nascente",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "63",
+              "comentarios": [
+                {
+                  "usuario": "Larissa",
+                  "data": "2024-02-25 10:30:00",
+                  "texto": "Falta de segurança na entrada."
+                },
+                {
+                  "usuario": "Diego",
+                  "data": "2024-02-25 12:50:00",
+                  "texto": "Ótimo suporte aos alunos."
+                },
+                {
+                  "usuario": "Fernanda",
+                  "data": "2024-02-25 14:45:00",
+                  "texto": "Professores atenciosos."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Cultura",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Casa de Cultura Aurora",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "205",
+              "comentarios": [
+                {
+                  "usuario": "Gustavo",
+                  "data": "2024-02-25 09:45:00",
+                  "texto": "Ótimas exposições."
+                },
+                {
+                  "usuario": "Aline",
+                  "data": "2024-02-25 12:10:00",
+                  "texto": "Falta de divulgação dos eventos."
+                },
+                {
+                  "usuario": "Roberto",
+                  "data": "2024-02-25 15:15:00",
+                  "texto": "Ambiente cultural agradável."
+                }
+              ]
+            },
+            {
+              "nome": "Casa de Cultura Harmonia",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "152",
+              "comentarios": [
+                {
+                  "usuario": "Marcela",
+                  "data": "2024-02-25 10:20:00",
+                  "texto": "Programação variada."
+                },
+                {
+                  "usuario": "Ricardo",
+                  "data": "2024-02-25 13:30:00",
+                  "texto": "Espaço pouco acessível."
+                },
+                {
+                  "usuario": "Ana",
+                  "data": "2024-02-25 16:00:00",
+                  "texto": "Ótimo local para exposições."
+                }
+              ]
+            },
+            {
+              "nome": "Casa de Cultura Arte e Dança",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "94",
+              "comentarios": [
+                {
+                  "usuario": "Pedro",
+                  "data": "2024-02-25 11:45:00",
+                  "texto": "Excelentes aulas de dança."
+                },
+                {
+                  "usuario": "Lúcia",
+                  "data": "2024-02-25 14:50:00",
+                  "texto": "Poucas opções de horários."
+                },
+                {
+                  "usuario": "André",
+                  "data": "2024-02-25 16:30:00",
+                  "texto": "Ótima equipe de instrutores."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Praças",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Praça da Liberdade",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "180",
+              "comentarios": [
+                {
+                  "usuario": "Amanda",
+                  "data": "2024-02-25 10:15:00",
+                  "texto": "Ótimo lugar para passear."
+                },
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 12:40:00",
+                  "texto": "Falta de manutenção nos brinquedos."
+                },
+                {
+                  "usuario": "Carolina",
+                  "data": "2024-02-25 15:20:00",
+                  "texto": "Muito movimentada aos finais de semana."
+                }
+              ]
+            },
+            {
+              "nome": "Praça das Flores",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "127",
+              "comentarios": [
+                {
+                  "usuario": "Marcos",
+                  "data": "2024-02-25 11:30:00",
+                  "texto": "Lugar tranquilo e bonito."
+                },
+                {
+                  "usuario": "Tatiane",
+                  "data": "2024-02-25 14:10:00",
+                  "texto": "Falta de iluminação à noite."
+                },
+                {
+                  "usuario": "Gabriel",
+                  "data": "2024-02-25 16:50:00",
+                  "texto": "Boa área para prática de esportes."
+                }
+              ]
+            },
+            {
+              "nome": "Praça do Sol",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "83",
+              "comentarios": [
+                {
+                  "usuario": "Fernanda",
+                  "data": "2024-02-25 09:50:00",
+                  "texto": "Lugar agradável para descansar."
+                },
+                {
+                  "usuario": "Pedro",
+                  "data": "2024-02-25 13:00:00",
+                  "texto": "Poucos bancos disponíveis."
+                },
+                {
+                  "usuario": "Jéssica",
+                  "data": "2024-02-25 15:40:00",
+                  "texto": "Bom ambiente para eventos culturais."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Prefeitura",
+      "icone": "https://github.com/vsiago/itaApp/blob/master/assets/icons/icon-prefeitura2.png?raw=true",
+      "categoria": [
+        {
+          "nome": "Unidades de Saúde",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Hospital São Francisco Xavier",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "263",
+              "comentarios": [
+                {
+                  "usuario": "Ana",
+                  "data": "2024-02-25 10:00:00",
+                  "texto": "Ótimo atendimento!"
+                },
+                {
+                  "usuario": "Carlos",
+                  "data": "2024-02-25 11:30:00",
+                  "texto": "Precisa de mais médicos."
+                },
+                {
+                  "usuario": "Maria",
+                  "data": "2024-02-25 13:45:00",
+                  "texto": "Muito limpo e organizado."
+                }
+              ]
+            },
+            {
+              "nome": "SEMES",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "98",
+              "comentarios": [
+                {
+                  "usuario": "João",
+                  "data": "2024-02-25 09:15:00",
+                  "texto": "Demora no atendimento."
+                },
+                {
+                  "usuario": "Fernanda",
+                  "data": "2024-02-25 12:20:00",
+                  "texto": "Ótimos profissionais."
+                },
+                {
+                  "usuario": "Pedro",
+                  "data": "2024-02-25 14:00:00",
+                  "texto": "Poderia ter mais estrutura."
+                }
+              ]
+            },
+            {
+              "nome": "UPA",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "77",
+              "comentarios": [
+                {
+                  "usuario": "Mariana",
+                  "data": "2024-02-25 11:00:00",
+                  "texto": "Espera muito longa."
+                },
+                {
+                  "usuario": "Roberto",
+                  "data": "2024-02-25 13:10:00",
+                  "texto": "Bom atendimento emergencial."
+                },
+                {
+                  "usuario": "Laura",
+                  "data": "2024-02-25 15:30:00",
+                  "texto": "Falta de medicamentos."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Escolas Municipais",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Escola Municipal Primavera",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "120",
+              "comentarios": [
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 09:30:00",
+                  "texto": "Excelente escola!"
+                },
+                {
+                  "usuario": "Juliana",
+                  "data": "2024-02-25 10:45:00",
+                  "texto": "Professores dedicados."
+                },
+                {
+                  "usuario": "Camila",
+                  "data": "2024-02-25 14:20:00",
+                  "texto": "Boas instalações."
+                }
+              ]
+            },
+            {
+              "nome": "Escola Municipal Arco-Íris",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "85",
+              "comentarios": [
+                {
+                  "usuario": "Rafael",
+                  "data": "2024-02-25 11:00:00",
+                  "texto": "Falta de material escolar."
+                },
+                {
+                  "usuario": "Patrícia",
+                  "data": "2024-02-25 13:15:00",
+                  "texto": "Ambiente acolhedor."
+                },
+                {
+                  "usuario": "Anderson",
+                  "data": "2024-02-25 15:40:00",
+                  "texto": "Boa merenda escolar."
+                }
+              ]
+            },
+            {
+              "nome": "Escola Municipal Sol Nascente",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "63",
+              "comentarios": [
+                {
+                  "usuario": "Larissa",
+                  "data": "2024-02-25 10:30:00",
+                  "texto": "Falta de segurança na entrada."
+                },
+                {
+                  "usuario": "Diego",
+                  "data": "2024-02-25 12:50:00",
+                  "texto": "Ótimo suporte aos alunos."
+                },
+                {
+                  "usuario": "Fernanda",
+                  "data": "2024-02-25 14:45:00",
+                  "texto": "Professores atenciosos."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Cultura",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Casa de Cultura Aurora",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "205",
+              "comentarios": [
+                {
+                  "usuario": "Gustavo",
+                  "data": "2024-02-25 09:45:00",
+                  "texto": "Ótimas exposições."
+                },
+                {
+                  "usuario": "Aline",
+                  "data": "2024-02-25 12:10:00",
+                  "texto": "Falta de divulgação dos eventos."
+                },
+                {
+                  "usuario": "Roberto",
+                  "data": "2024-02-25 15:15:00",
+                  "texto": "Ambiente cultural agradável."
+                }
+              ]
+            },
+            {
+              "nome": "Casa de Cultura Harmonia",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "152",
+              "comentarios": [
+                {
+                  "usuario": "Marcela",
+                  "data": "2024-02-25 10:20:00",
+                  "texto": "Programação variada."
+                },
+                {
+                  "usuario": "Ricardo",
+                  "data": "2024-02-25 13:30:00",
+                  "texto": "Espaço pouco acessível."
+                },
+                {
+                  "usuario": "Ana",
+                  "data": "2024-02-25 16:00:00",
+                  "texto": "Ótimo local para exposições."
+                }
+              ]
+            },
+            {
+              "nome": "Casa de Cultura Arte e Dança",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "94",
+              "comentarios": [
+                {
+                  "usuario": "Pedro",
+                  "data": "2024-02-25 11:45:00",
+                  "texto": "Excelentes aulas de dança."
+                },
+                {
+                  "usuario": "Lúcia",
+                  "data": "2024-02-25 14:50:00",
+                  "texto": "Poucas opções de horários."
+                },
+                {
+                  "usuario": "André",
+                  "data": "2024-02-25 16:30:00",
+                  "texto": "Ótima equipe de instrutores."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Praças",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Praça da Liberdade",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "180",
+              "comentarios": [
+                {
+                  "usuario": "Amanda",
+                  "data": "2024-02-25 10:15:00",
+                  "texto": "Ótimo lugar para passear."
+                },
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 12:40:00",
+                  "texto": "Falta de manutenção nos brinquedos."
+                },
+                {
+                  "usuario": "Carolina",
+                  "data": "2024-02-25 15:20:00",
+                  "texto": "Muito movimentada aos finais de semana."
+                }
+              ]
+            },
+            {
+              "nome": "Praça das Flores",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "127",
+              "comentarios": [
+                {
+                  "usuario": "Marcos",
+                  "data": "2024-02-25 11:30:00",
+                  "texto": "Lugar tranquilo e bonito."
+                },
+                {
+                  "usuario": "Tatiane",
+                  "data": "2024-02-25 14:10:00",
+                  "texto": "Falta de iluminação à noite."
+                },
+                {
+                  "usuario": "Gabriel",
+                  "data": "2024-02-25 16:50:00",
+                  "texto": "Boa área para prática de esportes."
+                }
+              ]
+            },
+            {
+              "nome": "Praça do Sol",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "40.7128",
+              "longitude": "-74.0060",
+              "likes": "83",
+              "comentarios": [
+                {
+                  "usuario": "Fernanda",
+                  "data": "2024-02-25 09:50:00",
+                  "texto": "Lugar agradável para descansar."
+                },
+                {
+                  "usuario": "Pedro",
+                  "data": "2024-02-25 13:00:00",
+                  "texto": "Poucos bancos disponíveis."
+                },
+                {
+                  "usuario": "Jéssica",
+                  "data": "2024-02-25 15:40:00",
+                  "texto": "Bom ambiente para eventos culturais."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Natureza",
+      "icone": "https://github.com/vsiago/itaApp/blob/master/assets/icons/icon-nature.png?raw=true",
+      "categoria": [
+        {
+          "nome": "Coroa Grande",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Praia da Coroa Grande",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9619",
+              "longitude": "-44.0412",
+              "likes": "150",
+              "comentarios": [
+                {
+                  "usuario": "Bruno",
+                  "data": "2024-02-25 10:30:00",
+                  "texto": "Água limpa e tranquila."
+                },
+                {
+                  "usuario": "Larissa",
+                  "data": "2024-02-25 13:20:00",
+                  "texto": "Falta de estrutura para turistas."
+                },
+                {
+                  "usuario": "Ricardo",
+                  "data": "2024-02-25 16:10:00",
+                  "texto": "Boas opções de restaurantes próximos."
+                }
+              ]
+            },
+            {
+              "nome": "Praia do Sol",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9705",
+              "longitude": "-44.0243",
+              "likes": "97",
+              "comentarios": [
+                {
+                  "usuario": "Carla",
+                  "data": "2024-02-25 11:45:00",
+                  "texto": "Mar agitado, cuidado ao nadar."
+                },
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 14:30:00",
+                  "texto": "Boa estrutura de quiosques."
+                },
+                {
+                  "usuario": "Fernanda",
+                  "data": "2024-02-25 17:00:00",
+                  "texto": "Poucas opções de estacionamento."
+                }
+              ]
+            },
+            {
+              "nome": "Praia da Areia Branca",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9532",
+              "longitude": "-44.0498",
+              "likes": "82",
+              "comentarios": [
+                {
+                  "usuario": "Diego",
+                  "data": "2024-02-25 09:40:00",
+                  "texto": "Lugar tranquilo e pouco frequentado."
+                },
+                {
+                  "usuario": "Juliana",
+                  "data": "2024-02-25 12:15:00",
+                  "texto": "Falta de limpeza na areia."
+                },
+                {
+                  "usuario": "Thiago",
+                  "data": "2024-02-25 15:30:00",
+                  "texto": "Ótimo para prática de esportes na areia."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Ilha dos Martins",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Praia da Ilha dos Martins",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9760",
+              "longitude": "-44.0384",
+              "likes": "210",
+              "comentarios": [
+                {
+                  "usuario": "Aline",
+                  "data": "2024-02-25 10:20:00",
+                  "texto": "Água cristalina, ótima para mergulho."
+                },
+                {
+                  "usuario": "Rafael",
+                  "data": "2024-02-25 13:40:00",
+                  "texto": "Poucas opções de barcos para passeio."
+                },
+                {
+                  "usuario": "Tatiane",
+                  "data": "2024-02-25 16:20:00",
+                  "texto": "Boa infraestrutura de quiosques."
+                }
+              ]
+            },
+            {
+              "nome": "Praia do Canto",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9812",
+              "longitude": "-44.0297",
+              "likes": "143",
+              "comentarios": [
+                {
+                  "usuario": "Gabriel",
+                  "data": "2024-02-25 11:10:00",
+                  "texto": "Lugar isolado, ideal para relaxar."
+                },
+                {
+                  "usuario": "Ana",
+                  "data": "2024-02-25 14:50:00",
+                  "texto": "Falta de estrutura de apoio."
+                },
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 17:30:00",
+                  "texto": "Lugar paradisíaco, ótimo para fotos."
+                }
+              ]
+            },
+            {
+              "nome": "Praia das Palmeiras",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9785",
+              "longitude": "-44.0441",
+              "likes": "76",
+              "comentarios": [
+                {
+                  "usuario": "Camila",
+                  "data": "2024-02-25 10:45:00",
+                  "texto": "Lugar calmo e belo."
+                },
+                {
+                  "usuario": "André",
+                  "data": "2024-02-25 13:25:00",
+                  "texto": "Poucas opções de estacionamento."
+                },
+                {
+                  "usuario": "Lúcia",
+                  "data": "2024-02-25 16:40:00",
+                  "texto": "Área boa para piquenique."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Quatiquara",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Praia de Quatiquara",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9655",
+              "longitude": "-44.0643",
+              "likes": "185",
+              "comentarios": [
+                {
+                  "usuario": "Mariana",
+                  "data": "2024-02-25 09:50:00",
+                  "texto": "Água gelada e revigorante."
+                },
+                {
+                  "usuario": "Diego",
+                  "data": "2024-02-25 12:30:00",
+                  "texto": "Falta de sinalização."
+                },
+                {
+                  "usuario": "Fernanda",
+                  "data": "2024-02-25 15:10:00",
+                  "texto": "Lugar tranquilo para famílias."
+                }
+              ]
+            },
+            {
+              "nome": "Praia do Pescador",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9718",
+              "longitude": "-44.0537",
+              "likes": "122",
+              "comentarios": [
+                {
+                  "usuario": "Ricardo",
+                  "data": "2024-02-25 10:40:00",
+                  "texto": "Boas opções de restaurantes de frutos do mar."
+                },
+                {
+                  "usuario": "Larissa",
+                  "data": "2024-02-25 13:20:00",
+                  "texto": "Falta de estrutura de banheiros."
+                },
+                {
+                  "usuario": "Gustavo",
+                  "data": "2024-02-25 16:00:00",
+                  "texto": "Poucas opções de estacionamento."
+                }
+              ]
+            },
+            {
+              "nome": "Praia da Paz",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9576",
+              "longitude": "-44.0789",
+              "likes": "94",
+              "comentarios": [
+                {
+                  "usuario": "Juliana",
+                  "data": "2024-02-25 10:00:00",
+                  "texto": "Poucas ondas, ótima para crianças."
+                },
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 12:45:00",
+                  "texto": "Pouca estrutura de comércio na região."
+                },
+                {
+                  "usuario": "Carla",
+                  "data": "2024-02-25 15:30:00",
+                  "texto": "Areia limpa e bem cuidada."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Hotel",
+      "icone": "https://github.com/vsiago/itaApp/blob/master/assets/icons/icon-hotel.png?raw=true",
+      "categoria": [
+        {
+          "nome": "Serra do Matoso",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Trilha da Serra do Matoso",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9743",
+              "longitude": "-43.9352",
+              "likes": "315",
+              "comentarios": [
+                {
+                  "usuario": "Pedro",
+                  "data": "2024-02-25 10:10:00",
+                  "texto": "Trilha desafiadora, mas recompensadora."
+                },
+                {
+                  "usuario": "Aline",
+                  "data": "2024-02-25 13:25:00",
+                  "texto": "Falta de sinalização em alguns trechos."
+                },
+                {
+                  "usuario": "Rafael",
+                  "data": "2024-02-25 16:15:00",
+                  "texto": "Vistas panorâmicas incríveis!"
+                }
+              ]
+            },
+            {
+              "nome": "Cachoeira do Amor",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9710",
+              "longitude": "-43.9431",
+              "likes": "218",
+              "comentarios": [
+                {
+                  "usuario": "Juliana",
+                  "data": "2024-02-25 10:50:00",
+                  "texto": "Cachoeira maravilhosa, vale o passeio!"
+                },
+                {
+                  "usuario": "Gustavo",
+                  "data": "2024-02-25 13:40:00",
+                  "texto": "Falta de estrutura de apoio na região."
+                },
+                {
+                  "usuario": "Carolina",
+                  "data": "2024-02-25 16:30:00",
+                  "texto": "Trilha difícil para iniciantes."
+                }
+              ]
+            },
+            {
+              "nome": "Pico da Serra",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9647",
+              "longitude": "-43.9485",
+              "likes": "173",
+              "comentarios": [
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 11:20:00",
+                  "texto": "Vale a pena o esforço para chegar ao topo."
+                },
+                {
+                  "usuario": "Fernanda",
+                  "data": "2024-02-25 14:35:00",
+                  "texto": "Trilha bem marcada e segura."
+                },
+                {
+                  "usuario": "Roberto",
+                  "data": "2024-02-25 17:00:00",
+                  "texto": "Vista incrível lá de cima!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Serra do Piloto",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Caminhada na Serra do Piloto",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9786",
+              "longitude": "-43.9768",
+              "likes": "280",
+              "comentarios": [
+                {
+                  "usuario": "Gabriel",
+                  "data": "2024-02-25 10:20:00",
+                  "texto": "Trilha bem sinalizada e fácil."
+                },
+                {
+                  "usuario": "Ana",
+                  "data": "2024-02-25 13:45:00",
+                  "texto": "Bela vista da região."
+                },
+                {
+                  "usuario": "Ricardo",
+                  "data": "2024-02-25 16:10:00",
+                  "texto": "Poderia ter mais pontos de descanso."
+                }
+              ]
+            },
+            {
+              "nome": "Mirante da Serra do Piloto",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9735",
+              "longitude": "-43.9824",
+              "likes": "194",
+              "comentarios": [
+                {
+                  "usuario": "Mariana",
+                  "data": "2024-02-25 11:30:00",
+                  "texto": "Pôr do sol espetacular."
+                },
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 14:50:00",
+                  "texto": "Falta de segurança nas trilhas próximas."
+                },
+                {
+                  "usuario": "Juliana",
+                  "data": "2024-02-25 17:20:00",
+                  "texto": "Ótimo local para piqueniques."
+                }
+              ]
+            },
+            {
+              "nome": "Cachoeira dos Sonhos",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9678",
+              "longitude": "-43.9891",
+              "likes": "149",
+              "comentarios": [
+                {
+                  "usuario": "Thiago",
+                  "data": "2024-02-25 11:40:00",
+                  "texto": "Cachoeira refrescante após a trilha."
+                },
+                {
+                  "usuario": "Amanda",
+                  "data": "2024-02-25 14:30:00",
+                  "texto": "Área de banho um pouco perigosa."
+                },
+                {
+                  "usuario": "Rafael",
+                  "data": "2024-02-25 17:10:00",
+                  "texto": "Trilha com paisagens deslumbrantes!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "Mirante",
+          "descricao": "",
+          "imagem": "/url",
+          "posts": [
+            {
+              "nome": "Mirante do Vale",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9684",
+              "longitude": "-43.9918",
+              "likes": "220",
+              "comentarios": [
+                {
+                  "usuario": "Carolina",
+                  "data": "2024-02-25 10:40:00",
+                  "texto": "Vista panorâmica de tirar o fôlego."
+                },
+                {
+                  "usuario": "Lucas",
+                  "data": "2024-02-25 13:20:00",
+                  "texto": "Poderia ter mais bancos para apreciar a vista."
+                },
+                {
+                  "usuario": "Tatiane",
+                  "data": "2024-02-25 16:00:00",
+                  "texto": "Excelente para observação de pássaros."
+                }
+              ]
+            },
+            {
+              "nome": "Mirante do Pôr do Sol",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9765",
+              "longitude": "-43.9982",
+              "likes": "167",
+              "comentarios": [
+                {
+                  "usuario": "Pedro",
+                  "data": "2024-02-25 11:50:00",
+                  "texto": "Pôr do sol deslumbrante."
+                },
+                {
+                  "usuario": "Amanda",
+                  "data": "2024-02-25 14:40:00",
+                  "texto": "Local romântico."
+                },
+                {
+                  "usuario": "Juliana",
+                  "data": "2024-02-25 17:30:00",
+                  "texto": "Muita gente nos fins de semana."
+                }
+              ]
+            },
+            {
+              "nome": "Mirante da Natureza",
+              "descricao": "",
+              "imagem": "/url",
+              "latitude": "-22.9637",
+              "longitude": "-44.0047",
+              "likes": "123",
+              "comentarios": [
+                {
+                  "usuario": "Gustavo",
+                  "data": "2024-02-25 10:15:00",
+                  "texto": "Ótimo para fotos."
+                },
+                {
+                  "usuario": "Camila",
+                  "data": "2024-02-25 13:10:00",
+                  "texto": "Falta de estrutura de apoio."
+                },
+                {
+                  "usuario": "Ricardo",
+                  "data": "2024-02-25 16:20:00",
+                  "texto": "Lugar calmo e relaxante."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

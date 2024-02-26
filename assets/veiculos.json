@@ -1,0 +1,25 @@
+{
+  "veiculos": [
+    {
+      "id": 1,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "latitude": -23.55052,
+      "longitude": -46.633308
+    },
+    {
+      "id": 2,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "latitude": -23.56301,
+      "longitude": -46.654241
+    },
+    {
+      "id": 3,
+      "marca": "Ford",
+      "modelo": "Fusion",
+      "latitude": -23.56764,
+      "longitude": -46.682676
+    }
+  ]
+}
