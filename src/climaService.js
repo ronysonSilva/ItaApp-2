@@ -12,7 +12,7 @@ export const obterDadosMeteorologicosAtuais = async () => {
     const response = await axios.get(url);
 
     // Verifica a resposta da API
-    console.log('Resposta da API:', response.data);
+    // console.log('Resposta da API:', response.data);
 
     // Retorne os dados ou faça qualquer outra manipulação necessária aqui
     return response.data;

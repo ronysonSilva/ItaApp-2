@@ -22,7 +22,7 @@ export const obterPosicoesDosOnibus = async () => {
     const response = await axios.get(url, { headers });
 
     // Exibe os dados das posições dos ônibus
-    console.log(response.data);
+    // console.log(response.data);
 
     // Retorna os dados para que possam ser utilizados em outros lugares, se necessário
     return response.data;
@@ -34,28 +34,28 @@ export const obterPosicoesDosOnibus = async () => {
 
   // Campos para consumir a API de Posiçõe dos Onibus Tarifa Zero
 
-        // id
-        // attributes
-        // batteryLevel
-        // distance
-        // totalDistance
-        // motion
-        // deviceId
-        // protocol
-        // serverTime
-        // deviceTime
-        // fixTime
-        // outdated
-        // valid
-        // latitude
-        // longitude
-        // altitude
-        // speed
-        // course
-        // address
-        // accuracy
-        // network
-        // geofenceIds
+  // id
+  // attributes
+  // batteryLevel
+  // distance
+  // totalDistance
+  // motion
+  // deviceId
+  // protocol
+  // serverTime
+  // deviceTime
+  // fixTime
+  // outdated
+  // valid
+  // latitude
+  // longitude
+  // altitude
+  // speed
+  // course
+  // address
+  // accuracy
+  // network
+  // geofenceIds
 };
 
 

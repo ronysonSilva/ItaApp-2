@@ -77,7 +77,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         password,
       });
 
-      console.log(response.data);
+      // console.log(response.data);
 
       const { id, name, token } = response.data;
 
@@ -98,7 +98,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
       setLoadingAuth(false);
     } catch (error) {
-      console.log("Erro ao acessar.", error);
+      // console.log("Erro ao acessar.", error);
       setLoadingAuth(false);
     }
   }

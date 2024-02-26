@@ -12,7 +12,7 @@ export const obterDadosMeteorologicosAtuais = async () => {
     const response = await axios.get(url);
 
     // Verifica a resposta da API
-    console.log('Resposta da API:', response.data);
+    // console.log('Resposta da API:', response.data);
 
     // Retorne os dados ou faça qualquer outra manipulação necessária aqui
     return response.data;
@@ -44,7 +44,7 @@ export const obterPrevisaoSemanal = async () => {
     const response = await axios.get(url);
 
     // Verifica a resposta da API
-    console.log('Resposta da API de previsão semanal:', response.data);
+    // console.log('Resposta da API de previsão semanal:', response.data);
 
     // Retorne os dados ou faça qualquer outra manipulação necessária aqui
     return response.data;

@@ -49,11 +49,12 @@ export default function PlacesMenu() {
     setShowComments(!showComments); // Alternar a exibição dos comentários ao clicar em um post
   };
 
-  const handleAddComment = () => {
-    // Lógica para adicionar o novo comentário ao post selecionado
-    console.log("Novo comentário:", newComment);
-    // Após adicionar o comentário, limpar o campo de entrada
-    setNewComment("");
+  const handleShowComments = () => {
+    setShowComments(true);
+  };
+
+  const handleHideComments = () => {
+    setShowComments(false);
   };
 
   return (
@@ -122,7 +123,7 @@ export default function PlacesMenu() {
       )}
       <ScrollView>
         {/* Renderizar os posts */}
-        {selectedCategory &&
+        {selectedCategory ?
           selectedCategory.posts.map((post, index) => (
             <TouchableOpacity
               key={index}
@@ -171,13 +172,88 @@ export default function PlacesMenu() {
                   onChangeText={(text) => setNewComment(text)}
                   style={{ flex: 1, borderWidth: 1, borderColor: "gray", borderRadius: 5, paddingHorizontal: 10, marginBottom: 10 }}
                 />
-                <TouchableOpacity onPress={handleAddComment} style={{ marginLeft: 10, backgroundColor: "blue", padding: 10, borderRadius: 5 }}>
+                <TouchableOpacity onPress={handleShowComments} style={{ marginLeft: 10, backgroundColor: "blue", padding: 10, borderRadius: 5 }}>
                   <Text style={{ color: "white" }}>Adicionar</Text>
                 </TouchableOpacity>
               </View>
             </TouchableOpacity>
-          ))}
+          ))
+          : selectedPlace &&
+          selectedPlace.categoria.map((categoria, index) =>
+            categoria.posts.map((post, index) => (
+              <TouchableOpacity key={index} className="w-screen rounded-lg bg-white mb-4 h-auto">
+                <Image
+                  source={{ uri: post.imagem }}
+                  style={{ height: 300, width: "100%", resizeMode: "cover" }}
+                  className="rounded-t-lg"
+                />
+                <View className="">
+                  <Text className="text-lg font-bold text-slate-600 mx-3 my-3 mb-1 leading-6">{post.nome}</Text>
+                </View>
+                <View className="mx-3 mt-2 mb-3 pt-2 border-t-2 border-slate-200 flex-row">
+                  <Text className=" py-1 font-semibold text-slate-600 text-base mr-3">Curtir   |</Text>
+                  <Text className=" py-1 font-semibold text-slate-500 text-base">{post.likes}</Text>
+                </View>
+                {/* Botão para mostrar/ocultar comentários */}
+                {!showComments ? (
+                  <TouchableOpacity onPress={handleShowComments} style={{ alignItems: "center", marginBottom: 10 }}>
+                    <Text style={{ color: "blue" }}>Ver comentários ({post.comentarios.length})</Text>
+                  </TouchableOpacity>
+                ) : (
+                  <View>
+                    {/* Renderizar os comentários */}
+                    {post.comentarios.map((comentario, index) => (
+                      <View key={index} className="mx-3 mb-2">
+                        <Text className="text-sm font-semibold text-slate-700">{comentario.usuario}</Text>
+                        <Text className="text-sm text-slate-600">{comentario.texto}</Text>
+                      </View>
+                    ))}
+                    {/* Botão para ocultar comentários */}
+                    <TouchableOpacity onPress={handleHideComments} style={{ alignItems: "center", marginBottom: 10 }}>
+                      <Text style={{ color: "blue" }}>Ocultar comentários</Text>
+                    </TouchableOpacity>
+                  </View>
+                )}
+                {/* Input para adicionar novo comentário */}
+                <View style={{ flexDirection: "row", alignItems: "center", marginLeft: 20 }}>
+                  <TextInput
+                    placeholder="Adicione um comentário..."
+                    value={newComment}
+                    onChangeText={(text) => setNewComment(text)}
+                    style={{ flex: 1, borderWidth: 1, borderColor: "gray", borderRadius: 5, paddingHorizontal: 10, marginBottom: 10 }}
+                  />
+                  <TouchableOpacity onPress={handleShowComments} style={{ marginLeft: 10, backgroundColor: "blue", padding: 10, borderRadius: 5 }}>
+                    <Text style={{ color: "white" }}>Adicionar</Text>
+                  </TouchableOpacity>
+                </View>
+              </TouchableOpacity>
+            ))
+          )}
       </ScrollView>
     </View>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
