@@ -108,12 +108,12 @@ export default function PlacesMenu() {
         {/* Renderizar os posts */}
         {selectedCategory
           ? selectedCategory.posts.map((post, index) => (
-            <TouchableOpacity key={index} className="w-full rounded-lg bg-white mb-4">
-              {/* <Image
-              source={{ uri: imageURL }}
-              style={{ height: 300, width: '100%', resizeMode: 'cover' }}
-              className="rounded-t-lg"
-            /> */}
+            <TouchableOpacity key={index} className="w-screen rounded-lg bg-white mb-4 h-auto">
+              <Image
+                source={{ uri: post.imagem }}
+                style={{ height: 300, width: "100%", resizeMode: "cover" }}
+                className="rounded-t-lg"
+              />
               <View className="">
                 <Text className="text-lg font-bold text-slate-600 mx-3 my-3 mb-1 leading-6">{post.nome}</Text>
               </View>
@@ -126,12 +126,12 @@ export default function PlacesMenu() {
           : selectedPlace &&
           selectedPlace.categoria.map((categoria, index) =>
             categoria.posts.map((post, index) => (
-              <TouchableOpacity key={index} className="w-full rounded-lg bg-white mb-4">
-                {/* <Image
-                  source={{ uri: imageURL }}
-                  style={{ height: 300, width: '100%', resizeMode: 'cover' }}
+              <TouchableOpacity key={index} className="w-screen rounded-lg bg-white mb-4 h-auto">
+                <Image
+                  source={{ uri: post.imagem }}
+                  style={{ height: 300, width: "100%", resizeMode: "cover" }}
                   className="rounded-t-lg"
-                /> */}
+                />
                 <View className="">
                   <Text className="text-lg font-bold text-slate-600 mx-3 my-3 mb-1 leading-6">{post.nome}</Text>
                 </View>
