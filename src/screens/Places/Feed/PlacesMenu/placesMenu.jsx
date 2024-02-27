@@ -230,6 +230,9 @@ export default function PlacesMenu() {
             ))
           )}
       </ScrollView>
+      <View className="w-screen items-center justify-center -ml-5 h-60">
+        <Text className="text-center text-base text-slate-600 w-full">Voce ainda nao tem locais favoritos</Text>
+      </View>
     </View>
   );
 }
