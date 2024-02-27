@@ -117,7 +117,7 @@ export default function App() {
             ))}
 
             {showColetaDeLixoMarkers &&
-              coletaDeLixoPositions.map((position, index) => (
+              coletaDeLixoPositions.map(async (position, index) => (
                 <Marker
                   key={index}
                   coordinate={{
@@ -126,14 +126,14 @@ export default function App() {
                   }}
                 >
                   <Image
-                    source={require("../../assets/iago.jpeg")}
+                    source={{ uri: position.icon_url }}
                     style={styles.avatar}
                     resizeMode="contain"
                   />
                 </Marker>
               ))}
           </MapView>
-          <FooterApps 
+          <FooterApps
             onOnibusGratisPress={() => FunctionMap.handleOnibusGratisPress(
               setShowBusMarkers,
               setShowColetaDeLixoMarkers,
