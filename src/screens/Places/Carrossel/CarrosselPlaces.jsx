@@ -17,7 +17,7 @@ export default function CarrosselPlaces() {
       /><>
         <View className="absolute mt-[126px] z-[2000]  h-[200px] mx-5 left-0 right-0 transform -translate-x-1/2 -translate-y-1/2">
           <Swiper
-            autoplay={true}
+            autoplay={false}
             loop={true}
             paginationStyle={{ bottom: 3 }}
             dotColor="#c2c2c2"
