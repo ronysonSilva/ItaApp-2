@@ -32,9 +32,14 @@ export default function TabRoutes() {
           tabBarLabelStyle: {
             display: "none",
           },
+          // Ajuste de altura:
           tabBarStyle: {
             backgroundColor: "",
-            height: 100, // Adjust the height as needed (in pixels)
+            height: "7%", // Altura da barra de guias em porcentagem
+            flexDirection: "row", // Organiza as guias na horizontal
+          },
+          screenStyle: {
+            flex: 1, // Faz com que as guias ocupem todo o espaço disponível
           },
           tabBarActiveBackgroundColor: "rgb(14 165 233)",
           tabBarInactiveBackgroundColor: "#003768",
@@ -49,7 +54,6 @@ export default function TabRoutes() {
             tabBarStyle: {
               backgroundColor: '#c3c3', // Optional background color
               overflow: 'hidden', // Ensures rounded corners are displayed correctly
-              height: '7%', // Adjust the height as needed (in pixels)
             },
           })}
           listeners={({ navigation, route }) => ({
@@ -74,7 +78,6 @@ export default function TabRoutes() {
             tabBarStyle: {
               backgroundColor: '#c3c3', // Optional background color
               overflow: 'hidden', // Ensures rounded corners are displayed correctly
-              height: '7%', // Adjust the height as needed (in pixels)
             },
           })}
           listeners={({ navigation, route }) => ({
@@ -99,7 +102,6 @@ export default function TabRoutes() {
             tabBarStyle: {
               backgroundColor: '#c3c3', // Optional background color
               overflow: 'hidden', // Ensures rounded corners are displayed correctly
-              height: '7%', // Adjust the height as needed (in pixels)
             },
           })}
           listeners={({ navigation, route }) => ({
